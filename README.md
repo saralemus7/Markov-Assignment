@@ -1,1 +1,3 @@
-# Markov-Assignment
+# Markov Assignment
+This project uses Markov processes to generate random text characters from a training text.  More specifically, I worked on the class EfficientMarkov to create a more efficient version of the class BaseMarkov, which uses a k-order Markov model to generate random text. If the text contains N characters, then generating T characters from a training text of size N is an O(NT) operation. After adjusting the getFollows() method, which makes use of HashMaps to generate text, runs in O(N+T) time. A similar class, called EfficientWordMarkov, was created that uses words instead of characters to generate random text.
+This project was originally a part of a project done for CS201: Data Structures and Algorithims.
